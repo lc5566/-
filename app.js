@@ -8,7 +8,7 @@ app.use(bodyParser.urlencoded({extended:false}));
 var con=mysql.createConnection({
 	  host     : 'sqld.duapp.com',
 	  port     :4050,
-	  user     : '956b89de21a54610bef6585306350b2',
+	  user     : '956b89de21a54610bef6585306350b26',
 	  password : 'e10865122ac243138fe8f8aed159d21c',
 	  database : 'rzCfKCdeGDXVhcEPJGqJ'
 });
