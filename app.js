@@ -15,7 +15,7 @@ var con=mysql.createConnection({
 con.connect();
 app.use(express.static(__dirname+'/site/public'))
 app.listen(18080,function(){
-	console.log('服务器在3000端口启动')//监听,找一个端口号，创建一个服务器
+	//监听,找一个端口号，创建一个服务器
 })
 app.get('/index',function(req,res){   //请求admin时候，调用函数
 	res.sendFile(__dirname+'/site/index.html')
